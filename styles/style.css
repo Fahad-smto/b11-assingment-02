@@ -16,7 +16,7 @@
 /* nav bar section */
 .nav_style {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 1.2rem;
     align-items: center;
 }
@@ -92,7 +92,62 @@ nav div a {
     padding: 1rem 3.3rem;
     cursor: pointer;
 }
-.button:hover{
+
+.button:hover {
     background: var(--Orange, #D91656);
     transition-duration: 0.7s;
+}
+
+/* banner */
+.hero_banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Empowering {
+    color: var(--Orange, #FEA301);
+    font-family: Quicksand;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+.towards_vision {
+    color: var(--Sky-Blue, #01ACFD);
+    font-family: Quicksand;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+.banner_h1 {
+    color: var(--Black, #111);
+    font-family: Quicksand;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+.banner_p {
+    color: var(--Black, #111);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.black {
+    background: var(--Black, #111);
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+     
 }
