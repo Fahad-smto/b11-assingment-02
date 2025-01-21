@@ -8,8 +8,8 @@
 }
 
 .body_styles {
-    max-width: 1280px;
-    margin: 0 auto;
+    max-width: 1080px;
+    margin: auto;
     margin-bottom: 80px;
 }
 
@@ -149,5 +149,167 @@ nav div a {
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
-     
+
+}
+
+/* main section */
+.main {
+    background-image: url(/assets/bg.png);
+}
+
+/* standard_curriculum section */
+.standard_curriculum {
+    text-align: center;
+    margin-top: 3.75rem;
+    margin-bottom: 5rem;
+    color: #000;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.5px;
+}
+
+.img_style_card_01 {
+    display: flex;
+    width: 270px;
+    height: 400px;
+    padding: 52.819px 40.668px 53.762px 40.878px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32.069px;
+    flex-shrink: 0;
+    border-radius: 18.864px;
+    border: 0.943px solid #DEF5FF;
+
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.img_style_card_02 {
+    display: flex;
+    width: 270px;
+    height: 400px;
+    padding: 52.819px 40.668px 53.762px 40.878px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32.069px;
+    flex-shrink: 0;
+    border-radius: 18.864px;
+    border: 0.943px solid #FFF4DC;
+
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.img_style_card_03 {
+    display: flex;
+    width: 270px;
+    height: 400px;
+    padding: 52.819px 40.668px 53.762px 40.878px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32.069px;
+    flex-shrink: 0;
+    border-radius: 18.864px;
+    border: 0.943px solid #F2E8FF;
+
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.standard_curriculum_cards {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.standard_curriculum_text {
+    color: #202020;
+
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 24.523px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.654px;
+    /* 125% */
+}
+
+.standard_curriculum_p {
+    color: #808080;
+
+    text-align: center;
+    font-family: Raleway;
+    font-size: 15.091px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.296px;
+    /* 187.5% */
+}
+
+.text_01 {
+    color: #64C8FF;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 15.091px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.296px;
+    border: none;
+}
+
+.text_02 {
+    color: #F0AA00;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 15.091px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.296px;
+}
+
+.text_03 {
+    color: #8700FF;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 15.091px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.296px;
+}
+
+/* buttons_in_center */
+.buttons_in_center {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.arrow_button {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding: 17px 0px 19px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: var(--Orange, #FEA301);
+    border: none;
+    cursor: pointer;
+}
+.arrow_button:hover{
+    background: var(--Orange, #D91656);
+    transition-duration: 0.7s;
+}
+.white{
+    color: #FFF;
 }
