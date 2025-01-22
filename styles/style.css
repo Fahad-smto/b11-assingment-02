@@ -331,6 +331,7 @@ nav div a {
 
 .our_story_section {
     display: flex;
+    background-image: url(/assets/bg.png) lightgray 0% 0% / 100px 100px repeat, linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%);
 
 }
 
@@ -338,7 +339,6 @@ nav div a {
     width: 540.267px;
     height: 630.518px;
     flex-shrink: 0;
-    padding: 2.876px 61.078px 3.835px 0px;
     border-radius: 16px;
     background: #FFF;
 }
@@ -355,6 +355,7 @@ nav div a {
 .story_divs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
 }
 
 .story_div_card {
@@ -365,7 +366,7 @@ nav div a {
 
 .story_text {
     color: #000;
-
+    margin: 10px;
     font-family: Quicksand;
     font-size: 15.339px;
     font-style: normal;
@@ -407,6 +408,47 @@ nav div a {
     border: none;
     color: #FFF;
 }
-.bg_color{
+
+.bg_color {
     background: #5D58F0;
+}
+
+/* view all */
+.view_all {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Footer_main */
+
+.footer_main {
+    display: flex;
+    justify-content: space-between;
+    background: #01ACFD;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.footer_p {
+
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    height: 400px;
+    width: 400px;
+}
+
+.about_school_p {
+    text-decoration: none;
+    color: #FFF;
+
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
