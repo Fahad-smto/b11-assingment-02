@@ -79,7 +79,7 @@ nav div a {
 
 }
 
-.button {
+.button_nav {
     color: #FFF;
     font-family: Quicksand;
     font-size: 20px;
@@ -93,7 +93,7 @@ nav div a {
     cursor: pointer;
 }
 
-.button:hover {
+.button_nav:hover {
     background: var(--Orange, #D91656);
     transition-duration: 0.7s;
 }
@@ -141,17 +141,24 @@ nav div a {
     line-height: normal;
 }
 
-.black {
-    background: var(--Black, #111);
-    color: #FFF;
+.button_black {
     font-family: Quicksand;
     font-size: 20px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 30px;
-
+    background: var(--Orange, #000);
+    border: none;
+    border-radius: 12px;
+    padding: 1rem 3.3rem;
+    cursor: pointer;
+    color: #FFF;
+     
 }
-
+.button_black:hover {
+    background: var(--Orange, #D91656);
+    transition-duration: 0.7s;
+ }
 /* main section */
 .main {
     background-image: url(/assets/bg.png);
@@ -355,7 +362,7 @@ nav div a {
 .story_divs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 10px;
+    margin-left: 10px;
 }
 
 .story_div_card {
@@ -451,4 +458,90 @@ nav div a {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+
+
+
+/* responsive styles  for mobile devise */
+
+@media screen and (max-width :567px) {
+    .school {
+        display: none;
+    }
+
+    .home {
+        display: none;
+    }
+
+    .about {
+        display: none;
+    }
+
+    .facilities {
+        display: none;
+    }
+
+    .admission {
+        display: none;
+    }
+    .button_nav{
+        display: none;
+    }
+    .hero_banner {
+        flex-direction: column-reverse
+    }
+
+    .standard_curriculum_cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-left: 250px;
+    }
+
+    .arrow_button {
+        display: none;
+    }
+
+    .story_div {
+        display: none;
+    }
+
+    .story_div_card {
+        height: auto;
+    }
+
+    .standard_curriculum {
+        margin-left: 150px;
+    }
+    
+    .standard_curriculum_cards {
+      margin-left: 150px;
+    }
+ 
+.banner_h1{
+    margin-left: 200px;
+}
+.banner_p{
+    margin-left: 200px;
+}
+.banner_img{
+    margin-left: 200px;
+}
+.button_black{
+      margin-left: 200px;
+}
+
+.footer_main{
+    display: block;
+    padding-right: 500px;
+    margin-left: 50px;
+}
+.footer_p{
+    height: auto;
+}
+.story_text_01{
+    margin-left: 150px;
+}
+    
 }
